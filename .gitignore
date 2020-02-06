@@ -1,0 +1,6 @@
+node_modules
+perl5
+local
+.bundle
+vendor
+dist

@@ -1,0 +1,25 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "vendor/": true,
+        ".bundle/": true,
+        "local/": true,
+    },
+
+    "editor.codeActionsOnSave": {
+        "source.fixAll.markdownlint": true
+    },
+
+    /** 
+    * Pandoc Configuration
+    **/
+
+    "pandoc.pdfOptString": "",
+    "pandoc.docxOptString": "",
+    "pandoc.htmlOptString": "-s -t html",
+    "python.linting.enabled": true,
+}

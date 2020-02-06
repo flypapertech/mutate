@@ -1,0 +1,5 @@
+local
+.vscode
+dist
+.bundle
+vendor
