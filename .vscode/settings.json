@@ -11,7 +11,8 @@
     },
 
     "editor.codeActionsOnSave": {
-        "source.fixAll.markdownlint": true
+        "source.fixAll.markdownlint": true,
+        "source.fixAll.perltidy": true
     },
 
     /** 
@@ -22,4 +23,6 @@
     "pandoc.docxOptString": "",
     "pandoc.htmlOptString": "-s -t html",
     "python.linting.enabled": true,
+    "perltidy.executable": ".perltidyrc",
+    "python.pythonPath": "/usr/local/bin/python3"
 }
