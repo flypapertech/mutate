@@ -1,13 +1,11 @@
 {
     "files.exclude": {
         "**/.git": true,
-        "**/.svn": true,
-        "**/.hg": true,
-        "**/CVS": true,
         "**/.DS_Store": true,
         "vendor/": true,
         ".bundle/": true,
         "local/": true,
+        ".vstags": true
     },
 
     "editor.codeActionsOnSave": {
@@ -23,6 +21,7 @@
     "pandoc.docxOptString": "",
     "pandoc.htmlOptString": "-s -t html",
     "python.linting.enabled": true,
+    "perl.perltidy": "perltidy",
     "perltidy.executable": ".perltidyrc",
     "python.pythonPath": "/usr/local/bin/python3"
 }
